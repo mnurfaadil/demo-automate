@@ -1,0 +1,25 @@
+# Output binary
+dist/
+*.exe
+app-automation
+
+# Data browser & sesi
+auth/auth.json
+chrome-user-data/
+.rod/
+
+# Download artifacts
+downloads/*
+!downloads/.gitkeep
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env

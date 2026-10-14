@@ -1,0 +1,25 @@
+{
+  "name": "demo-automate",
+  "version": "1.0.0",
+  "description": "Playwright Automation & Test Suite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnurfaadil/demo-automate.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [],
+  "author": "mnurfaadil",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.64.0"
+  }
+}
